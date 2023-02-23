@@ -71,7 +71,7 @@ def reduce_mem_usage(props):
     return props, NAlist
 
 
-main_folder = '/../iot_23/'
+main_folder = '../iot_23/'
 files = [
 main_folder+'2019-01-09-21-25-11-192.168.1.194-zeek-conn-log.labeled',
 main_folder+'2019-01-10-19-22-51-192.168.1.198-zeek-conn-log.labeled',
