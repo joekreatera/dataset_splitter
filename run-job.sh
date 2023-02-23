@@ -11,7 +11,7 @@ module load python/3.10 scipy-stack
 source ~/py10efc/bin/activate
 #python ./splitter.py ../bot_iot/ nfbotiot_no_flow_id_complete.pkl 0.7 0.15 0.15 AttackLabel
 #python ./splitter.py ../cic_ids_2017/ dataset_cicids2017_87_cols_no_time_no_id.pkl 0.7 0.15 0.15 Label
-python .\splitter.py ../cic_ids_2018/ cic_ids_2018_no_flow_id_no_ts_w_labels.pkl 0.7 0.15 0.15 Label
+python ./splitter.py ../cic_ids_2018/ cic_ids_2018_no_flow_id_no_ts_w_labels.pkl 0.7 0.15 0.15 Label
 #python ./splitter.py ../cic_ids_2019/ cic_ids_2019_no_id_no_ts.pkl 0.7 0.15 0.15 Label
 #python ./splitter.py ../cidds/ cidds_clean_complete.pkl 0.7 0.15 0.15 Label
 #python ./splitter.py ../hikari/ hikari_no_flow_id_complete.pkl 0.7 0.15 0.15 AttackLabel
